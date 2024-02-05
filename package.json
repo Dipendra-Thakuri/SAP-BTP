@@ -18,6 +18,12 @@
     "watch-student": "cds watch --open student/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-courses": "cds watch --open courses/webapp/index.html?sap-ui-xx-viewCache=false"
   },
+  "cds": {
+    "fiori": {
+      "lean_draft": true,
+      "bypass_draft": true
+    }
+  },
   "sapux": [
     "app/student",
     "app/courses"
