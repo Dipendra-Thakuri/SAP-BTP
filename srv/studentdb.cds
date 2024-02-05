@@ -247,6 +247,9 @@ annotate studentDB.Student with @(
         {
             Value : course.code
         },
+        {
+            Value: is_alumni
+        }
     ],
     UI.SelectionFields: [ stid, fname, lname, email, pan_no, dob, age],       
     UI.FieldGroup #StudentInformation : {
@@ -284,7 +287,7 @@ annotate studentDB.Student with @(
             {
                 $Type: 'UI.DataField',
                 Value: course_ID
-            }
+            },
         ],
     },
     UI.Facets : [

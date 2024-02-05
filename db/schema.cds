@@ -29,6 +29,8 @@ entity Student: cuid, managed {
     }
     @title: 'Age'
     virtual age: Integer @Core.Computed;
+    @title: 'Is Alumni'
+    is_alumni: Boolean default false;
 }
 
 @cds.persistence.skip
