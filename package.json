@@ -22,7 +22,15 @@
     "fiori": {
       "lean_draft": true,
       "bypass_draft": true
-    }
+    },
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "url": "db.sqlite"
+        }
+      }
+  }
   },
   "sapux": [
     "app/student",

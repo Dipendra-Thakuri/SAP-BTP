@@ -6,7 +6,7 @@ sap.ui.define([
     return {
         SetAlumni: function(oBindingContext,aSelectedContexts) {       
              aSelectedContexts.forEach(element => {
-                MessageToast.show(element.sPath);
+                MessageToast.show("Nikil Bhai Set");
                 var aData = jQuery.ajax({
                     type: "PATCH",
                     contentType: "application/json",
@@ -17,7 +17,7 @@ sap.ui.define([
         },
         SetStudent: function(oBindingContext,aSelectedContexts) {       
             aSelectedContexts.forEach(element => {
-               MessageToast.show(element.sPath);
+               MessageToast.show("Nikil Bhai Not Set");
                var aData = jQuery.ajax({
                    type: "PATCH",
                    contentType: "application/json",
